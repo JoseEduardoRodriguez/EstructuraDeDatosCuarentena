@@ -3,72 +3,72 @@ public class PruebaArbol {
 		Arbol bonsai=new Arbol();
 		bonsai.insert(new Nodo(10));
 		if(bonsai.buscar(new Nodo(10))){
-			System.out.println("El 10 se encuentro");
+			System.out.println("El 10 se encontro");
 		}
 		
 		Nodo AB;
 	
 	    AB= new Nodo(0);
 		if(bonsai.buscar(AB)){
-			System.out.println("El "+AB+" se encuentro");
+			System.out.println("El "+AB+" se encontro");
 		}else {
-			System.out.println("El "+AB+" no se encuentro");	
+			System.out.println("El "+AB+" no se encontro");	
 		}
 	
 		AB= new Nodo(5);
 		bonsai.insert(AB);
 		if(bonsai.buscar(AB)){
-	       	System.out.println("El "+AB+" se encuentro");
+	       	System.out.println("El "+AB+" se encontro");
 		}else {
-		    System.out.println("El "+AB+" no se encuentro");	
+		    System.out.println("El "+AB+" no se encontro");	
 			}
 	
 		AB= new Nodo(15);
 		bonsai.insert(AB);
 		if(bonsai.buscar(AB)){
-	       	System.out.println("El "+AB+" se encuentro");
+	       	System.out.println("El "+AB+" se encontro");
 		}else {
-		    System.out.println("El "+AB+" no se encuentro");	
+		    System.out.println("El "+AB+" no se encontro");	
 			}
 
 		AB= new Nodo(4);
 		bonsai.insert(AB);
 		if(bonsai.buscar(AB)){
-	       	System.out.println("El "+AB+" se encuentro");
+	       	System.out.println("El "+AB+" se encontro");
 		}else {
-		    System.out.println("El "+AB+" no se encuentra");	
-			}
+		    System.out.println("El "+AB+" no se encontra");	
+		}
 	
 		AB= new Nodo(16);
 		bonsai.insert(AB);
 		if(bonsai.buscar(AB)){
-	       	System.out.println("El "+AB+" se encuentro");
+	       	System.out.println("El "+AB+" se encontro");
 		}else {
-		    System.out.println("El "+AB+" no se encuentro");	
+		    System.out.println("El "+AB+" no se encontro");	
 			}
 	
 		AB= new Nodo(8);
 		bonsai.insert(AB);
 		if(bonsai.buscar(AB)){
-	       	System.out.println("El "+AB+" se encuentro");
+	       	System.out.println("El "+AB+" se encontro");
 		}else {
-		    System.out.println("El "+AB+" no se encuentro");	
+		    System.out.println("El "+AB+" no se encontro");	
 			}
 		
 		AB= new Nodo(11);
 		bonsai.insert(AB);
 		if(bonsai.buscar(AB)){
-	       	System.out.println("El "+AB+" se encuentro");
+	       	System.out.println("El "+AB+" se encontro");
 		}else {
-		    System.out.println("El "+AB+" no se encuentro");	
-			}
+		    System.out.println("El "+AB+" no se encontro");	
+		}
 
 		AB= new Nodo(1111);
 		if(bonsai.buscar(AB)){
-	       	System.out.println("El "+AB+" se encuentro");
+	       	System.out.println("El "+AB+" se encontro");
 		}else {
-		    System.out.println("El "+AB+" no se encuentro");	
-			}
+		    System.out.println("El "+AB+" no se encontro");	
+		}
 		
 	}
 
